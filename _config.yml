@@ -1,0 +1,2 @@
+theme: jekyll-theme-cayman
+keep_files: [sphinx2, doxygen]
