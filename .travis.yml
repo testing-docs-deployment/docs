@@ -1,0 +1,12 @@
+language: python
+
+install: pip install -r requirements.txt
+
+script: make html && bash script/publish.sh
+
+notifications:
+  email: false
+
+branches:
+  only:
+  - docs_md_sphinx
